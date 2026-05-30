@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TallyLearn — GST Practice Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- ══════════ SIDEBAR ══════════ -->
+  <div class="sidebar">
+    <div class="sb-logo">
+      <div class="sb-logo-title">TALLYLEARN</div>
+      <div class="sb-logo-sub">GST PRACTICE PORTAL</div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-label">GATEWAY</div>
+      <div class="sb-item active" data-page="dashboard">
+        <span class="sb-icon">▣</span> Dashboard
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-label">VOUCHERS</div>
+      <div class="sb-item" data-page="sales">
+        <span class="sb-icon">↑</span> Sales Bill
+      </div>
+      <div class="sb-item" data-page="purchase">
+        <span class="sb-icon">↓</span> Purchase Bill
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-label">GST / IRN</div>
+      <div class="sb-item" data-page="gst">
+        <span class="sb-icon">◎</span> GST Generator
+      </div>
+      <div class="sb-item" data-page="irn">
+        <span class="sb-icon">⬡</span> IRN Generator
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-label">PRACTICE</div>
+      <div class="sb-item" data-page="practice">
+        <span class="sb-icon">✎</span> Practice Questions
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ MAIN AREA ══════════ -->
+  <div class="main-area">
+
+    <div class="menubar">
+      <div class="mb-btn">F1 Help</div>
+      <div class="mb-btn">F2 Date</div>
+      <div class="mb-btn">F3 Company</div>
+      <div class="mb-btn">F4 Features</div>
+      <div class="mb-title" id="mb-title">TALLYLEARN — GATEWAY</div>
+      <div class="mb-date" id="mb-date"></div>
+    </div>
+
+    <div class="content-area" id="content-area">
+      <!-- Rendered by script.js -->
+    </div>
+
+    <div class="statusbar">
+      <div class="sb-left">
+        <span class="sk">Tab</span> Next Field &nbsp;
+        <span class="sk">Enter</span> Accept &nbsp;
+        <span class="sk">F5</span> Generate GSTIN &nbsp;
+        <span class="sk">F6</span> Add Row &nbsp;
+        <span class="sk">Ctrl+A</span> Save &nbsp;
+        <span class="sk">Esc</span> Quit
+      </div>
+      <div class="sb-right">TallyLearn — Practice Mode | All data is FAKE (for learning only)</div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
